@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #051D3B;
+    overflow: hidden;
+}
+
+.cor-b{
+    color: #fff;
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.img {
+    object-fit: cover;
+    width: 145px;
+    height: 38px;
+}
+
+.btn {
+    z-index: 1000;
+}

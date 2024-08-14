@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AluraDev';
+  isSidenavOpened:boolean = true;
+
+
+  onToggleSidenav() {
+    this.isSidenavOpened = !this.isSidenavOpened;
+    console.log(this.isSidenavOpened);
+  }
 }

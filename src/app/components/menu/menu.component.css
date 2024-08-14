@@ -1,0 +1,9 @@
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Inter;
+}
+
+.items {
+    cursor: pointer;
+}   
